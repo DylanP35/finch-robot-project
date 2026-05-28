@@ -8,7 +8,7 @@ public FinalFinch(String device){
 super (device);
 }
 public void test(){
-    bird.setMove(direction:"F", distance:10, speed:50);
+    bird.setMove("F", 10, 50);
 }
 
 }
